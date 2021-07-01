@@ -19,6 +19,7 @@
 		8207CB36268CC8E00071E0D3 /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207CB35268CC8E00071E0D3 /* HeroDetailViewController.swift */; };
 		8207CB38268CC8E70071E0D3 /* HeroDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207CB37268CC8E70071E0D3 /* HeroDetailPresenter.swift */; };
 		8207CB3A268CCF7B0071E0D3 /* HeroDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207CB39268CCF7B0071E0D3 /* HeroDetailInteractor.swift */; };
+		8207CB3C268D94450071E0D3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8207CB3B268D94440071E0D3 /* .swiftlint.yml */; };
 		82F966E7268A055100DE204E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F966E6268A055100DE204E /* AppDelegate.swift */; };
 		82F966E9268A055100DE204E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F966E8268A055100DE204E /* SceneDelegate.swift */; };
 		82F966EB268A055100DE204E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F966EA268A055100DE204E /* HomeViewController.swift */; };
@@ -67,6 +68,7 @@
 		8207CB35268CC8E00071E0D3 /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
 		8207CB37268CC8E70071E0D3 /* HeroDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailPresenter.swift; sourceTree = "<group>"; };
 		8207CB39268CCF7B0071E0D3 /* HeroDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailInteractor.swift; sourceTree = "<group>"; };
+		8207CB3B268D94440071E0D3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		82F966E3268A055100DE204E /* DotaHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F966E6268A055100DE204E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F966E8268A055100DE204E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		82F966DA268A055100DE204E = {
 			isa = PBXGroup;
 			children = (
+				8207CB3B268D94440071E0D3 /* .swiftlint.yml */,
 				82F966E5268A055100DE204E /* DotaHeroes */,
 				82F96721268B6F7A00DE204E /* DotaHeroesTests */,
 				82F966E4268A055100DE204E /* Products */,
@@ -420,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8207CB3C268D94450071E0D3 /* .swiftlint.yml in Resources */,
 				8207CB2D268CB4940071E0D3 /* HeroCollectionViewCell.xib in Resources */,
 				82F966F3268A055300DE204E /* LaunchScreen.storyboard in Resources */,
 				82F966F0268A055300DE204E /* Assets.xcassets in Resources */,

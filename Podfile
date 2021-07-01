@@ -17,7 +17,6 @@ target 'DotaHeroes' do
   pod 'SDWebImage', '~> 5.0'
   pod 'RxCocoa', '~>5.0'
   pod 'RxDataSources', '~> 4.0'
-  pod 'Lightbox'
   pod 'SnapKit', '~> 5.0.0'
   core_pods
 end
